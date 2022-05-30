@@ -38,6 +38,9 @@ RUN sudo apt-get install -y nodejs
 
 # -----------
 
+ARG PASSWORD
+ENV PASSWORD $PASSWORD
+
 # Port
 ENV PORT=8080
 
